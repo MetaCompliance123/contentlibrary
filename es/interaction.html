@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano Library Content 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Contenido de la Biblioteca Nano</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/interaction.html">En</a>
+      <a href="../de/interaction.html">De</a>
+      <a href="../fr/interaction.html">Fr</a>
+      <a href="../es/interaction.html" class="active">Es</a>
+      <a href="../pt/interaction.html">Pt</a>
+      <a href="../da/interaction.html">Da</a>
+    </div>
+    <div class="description">
+      Tenga en cuenta: esta biblioteca de contenido proporciona una visión general de los títulos disponibles, pero se están lanzando contenidos adicionales de forma regular.
+    </div>
+
+    <div class="dropdown">
+      <p>Tipo de contenido</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Interacciones
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="index.html">Video</a>
+        <a href="#">Interacciones</a>
+        <!--<a href="scorm.html">SCORM Course</a>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="interaction";
+const bundles=[
+{title:"Codificación Segura",file:"secure-coding"},
+{title:"Cyber Core",file:"cyber-core"},
+{title:"Finanzas",file:"finance"},
+{title:"Formación Ejecutiva",file:"executive-training"},
+{title:"Ingeniería Social",file:"social-engineering"},
+{title:"Legislación",file:"legislation"},
+{title:"OWASP 2021",file:"owasp-2021"},
+{title:"Phishing",file:"phishing"},
+{title:"Redes Sociales",file:"social-networks"},
+{title:"RGPD",file:"gdpr"},
+{title:"Seguridad de la Información",file:"information-security"},
+{title:"Seguridad Física",file:"physical-security"},
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>

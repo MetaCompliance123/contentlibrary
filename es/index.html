@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano Library Content 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Contenido de la Biblioteca Nano</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/index.html">En</a>
+      <a href="../de/index.html">De</a>
+      <a href="../fr/index.html">Fr</a>
+      <a href="../es/index.html" class="active">Es</a>
+      <a href="../pt/index.html">Pt</a>
+      <a href="../da/index.html">Da</a>
+    </div>
+    <div class="description">
+      Tenga en cuenta: esta biblioteca de contenido proporciona una visión general de los títulos disponibles, pero se están lanzando contenidos adicionales de forma regular.
+    </div>
+
+    <div class="dropdown content">
+      <p>Tipo de contenido</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Video
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="#">Video</a>
+        <a href="interaction.html">Interacciones</a>
+        <!--<a href="scorm.html">SCORM Course</a>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="video";
+const bundles=[
+{title:"Amenazas Internas y Reportes",file:"insider-threats"},
+{title:"Ataques y Estafas",file:"attacks-scams"},
+{title:"Ciber en 60",file:"cyber-in-60"},
+{title:"City Factory",file:"city-factory"},
+{title:"Codificación Segura",file:"secure-coding"},
+{title:"Finanzas",file:"finance"},
+{title:"Formación Ejecutiva",file:"executive-training"},
+{title:"Ingeniería Social",file:"social-engineering"},
+{title:"Inteligencia Artificial",file:"artificial-intelligence"},
+{title:"Legislación",file:"legislation"},
+{title:"Núcleo Cibernético",file:"cyber-core"},
+{title:"OWASP 2021",file:"owasp-2021"},
+{title:"Phishing",file:"phishing"},
+{title:"Redes Sociales",file:"social-networks"},
+{title:"RGPD",file:"gdpr"},
+{title:"Seguridad de la Información",file:"information-security"},
+{title:"Seguridad Física",file:"physical-security"},
+{title:"Serie Departamental - Adquisiciones",file:"departmental-procurement"},
+{title:"Serie Departamental - Finanzas",file:"departmental-finance"},
+{title:"Serie Departamental - Legal",file:"departmental-legal"},
+{title:"Serie Departamental - Marketing",file:"departmental-marketing"},
+{title:"Serie Departamental - Recursos Humanos",file:"departmental-hr"},
+{title:"Serie Departamental - Usuarios Privilegiados",file:"departmental-privileged"},
+{title:"Serie Departamental - Ventas",file:"departmental-sales"},
+{title:"Software Malicioso",file:"malicious-software"},
+{title:"Temática",file:"topical"}
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>
