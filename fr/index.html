@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano Library Content 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Contenu de la nanothèque</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/index.html">En</a>
+      <a href="../de/index.html">De</a>
+      <a href="../fr/index.html" class="active">Fr</a>
+      <a href="../es/index.html">Es</a>
+      <a href="../pt/index.html">Pt</a>
+      <a href="../da/index.html">Da</a>
+    </div>
+    <div class="description">
+      Remarque: cette bibliothèque de contenu fournit une vue d'ensemble des titres disponibles, mais du contenu supplémentaire est régulièrement mis à disposition.
+    </div>
+
+    <div class="dropdown content">
+      <p>Type de contenu</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Vidéo
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="#">Vidéo</a>
+        <a href="interaction.html">Interactions</a>
+        <a href="scorm.html">Cours SCORM</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="video";
+const bundles=[
+{title:"Attaques et escroqueries ",file:"attacks-scams"},
+{title:"City Factory",file:"city-factory"},
+{title:"Codage sécurisé",file:"secure-coding"},
+{title:"Cœur du cyberespace ",file:"cyber-core"},
+{title:"Cyber en 60",file:"cyber-in-60"},
+{title:"Finance",file:"finance"},
+{title:"Formation des cadres",file:"executive-training"},
+{title:"Ingénierie sociale",file:"social-engineering"},
+{title:"Intelligence artificielle",file:"artificial-intelligence"},
+{title:"Législation",file:"legislation"},
+{title:"Logiciels malveillants ",file:"malicious-software"},
+{title:"Menaces internes et rapports",file:"insider-threats"},
+{title:"OWASP 2021",file:"owasp-2021"},
+{title:"Phishing",file:"phishing"},
+{title:"Réseaux sociaux",file:"social-networks"},
+{title:"RGPD",file:"gdpr"},
+{title:"Sécurité de l'information",file:"information-security"},
+{title:"Sécurité physique",file:"physical-security"},
+{title:"Série départementale - Approvisionnement",file:"departmental-procurement"},
+{title:"Série départementale - Finances",file:"departmental-finance"},
+{title:"Série départementale - Juridique",file:"departmental-legal"},
+{title:"Série départementale - Marketing ",file:"departmental-marketing"},
+{title:"Série départementale - RH",file:"departmental-hr"},
+{title:"Série départementale - Utilisateurs privilégiés",file:"departmental-privileged"},
+{title:"Série départementale - Ventes",file:"departmental-sales"},
+{title:"Sujet d'actualité",file:"topical"},
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>
