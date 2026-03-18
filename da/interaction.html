@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano Library Content 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Nano indholdsbibliotek</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/interaction.html">En</a>
+      <a href="../de/interaction.html">De</a>
+      <a href="../fr/interaction.html">Fr</a>
+      <a href="../es/interaction.html">Es</a>
+      <a href="../pt/interaction.html">Pt</a>
+      <a href="../da/interaction.html" class="active">Da</a>
+    </div>
+    <div class="description">
+      Bemærk: Dette indholdsbibliotek giver et overblik over de tilgængelige titler, men der udgives løbende yderligere indhold.
+    </div>
+
+    <div class="dropdown">
+      <p>Indholdstype</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Interaktioner
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="index.html">Video</a>
+        <a href="#">Interaktioner</a>
+        <a href="scorm.html">SCORM Kurser</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="interaction";
+const bundles=[
+{title:"Fysisk sikkerhed",file:"physical-security"},
+{title:"GDPR",file:"gdpr"},
+{title:"Grundlæggende cyber",file:"cyber-core"},
+{title:"Informationssikkerhed",file:"information-security"},
+{title:"Ledelsestræning",file:"executive-training"},
+{title:"Phishing",file:"phishing"},
+{title:"Social Engineering",file:"social-engineering"},
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>

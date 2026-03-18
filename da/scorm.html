@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano Library Content 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Nano indholdsbibliotek</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/scorm.html">En</a>
+      <a href="../de/scorm.html">De</a>
+      <a href="../fr/scorm.html">Fr</a>
+      <a href="../es/scorm.html" class="disabled">Es</a>
+      <a href="../pt/scorm.html">Pt</a>
+      <a href="../da/scorm.html" class="active">Da</a>
+    </div>
+    <div class="description">
+      Bemærk: Dette indholdsbibliotek giver et overblik over de tilgængelige titler, men der udgives løbende yderligere indhold.
+    </div>
+
+    <div class="dropdown">
+      <p>Indholdstype</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        SCORM Kurser
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="index.html">Video</a>
+        <a href="interaction.html">Interaktioner</a>
+        <a href="#">SCORM Kurser</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="scorm";
+const bundles=[
+{title:"Finans",file:"finance"},
+{title:"Lovgivning",file:"legislation"},
+];
+
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>
