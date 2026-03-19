@@ -122,7 +122,6 @@ body{
   padding: 5px;
   font-size:14px;
   font-weight: 600;
-  text-transform: uppercase;
   text-decoration: none;
   opacity: .6;
   color: #2c2350;
@@ -287,6 +286,7 @@ body{
 
 .item-content{
   max-height:0;
+  min-height: 145px;
   overflow:hidden;
   border-top:1px solid rgba(255,255,255,1);
   padding:0 22px;
