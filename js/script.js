@@ -9,7 +9,7 @@ bundles.forEach(bundle => {
       <div class="item-thumb">
         <img src="thumbs/${contentType}/${bundle.file}.jpg" alt="${bundle.title || 'Thumbnail'}">
       </div>
-      <iframe loading="lazy" class="bundle-frame" src="bundles/${contentType}/${bundle.file}.html"></iframe>
+      <iframe loading="lazy" scrolling="no" class="bundle-frame" src="bundles/${contentType}/${bundle.file}.html"></iframe>
     </div>
   `;
   list.appendChild(item);

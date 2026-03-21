@@ -233,7 +233,7 @@ body{
   padding-right: 10px;
   border-radius:14px;
   transition: top 0.4s ease, transform 0.4s ease;
-  scrollbar-color: rgba(255,255,255,.8) black;
+  scrollbar-color: rgba(0,0,0,.2) transparent;
 }
 
 .list-container.expand {
@@ -320,8 +320,6 @@ body{
   height: 300px;
   width: 100%;
   margin: 15px 0;
-  scrollbar-width: thin;
-  scrollbar-color: #c3c7d3 transparent;
 }
 
 @media (max-width: 760px) {
