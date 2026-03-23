@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conteúdo da nanoteca 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Conteúdo da nanoteca</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/index.html">Inglês</a>
+      <a href="../de/index.html">Alemão</a>
+      <a href="../fr/index.html">Francês</a>
+      <a href="../es/index.html">Espanhol</a>
+      <a href="../pt/index.html" class="active">Português</a>
+      <a href="../da/index.html">Dinamarquês</a>
+    </div>
+    <div class="description">
+       Por favor, note: esta biblioteca de conteúdos fornece uma visão geral detalhada dos títulos disponíveis, mas novos conteúdos são lançados regularmente.
+    </div>
+
+    <div class="dropdown content">
+      <p>Tipo de conteúdo</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Vídeo
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="#">Vídeo</a>
+        <a href="interaction.html">Interacções</a>
+        <a href="scorm.html">SCORM Course</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="video";
+const bundles=[
+{title:"Ameaças Internas e Relatórios",file:"insider-threats"},
+{title:"Ataques e Fraudes",file:"attacks-scams"},
+{title:"City Factory",file:"city-factory"},
+{title:"Cyber in 60",file:"cyber-in-60"},
+{title:"Engenharia Social",file:"social-engineering"},
+{title:"Finanças",file:"finance"},
+{title:"Formação de Quadros",file:"executive-training"},
+{title:"Inteligência Artificial",file:"artificial-intelligence"},
+{title:"Legislação",file:"legislation"},
+{title:"Núcleo Cibernético",file:"cyber-core"},
+{title:"Phishing",file:"phishing"},
+{title:"Por Tópico",file:"topical"},
+{title:"Redes Sociais",file:"social-networks"},
+{title:"RGPD",file:"gdpr"},
+{title:"Segurança da Informação",file:"information-security"},
+{title:"Segurança Física",file:"physical-security"},
+{title:"Séries Departamentais - Aquisição",file:"departmental-procurement"},
+{title:"Séries Departamentais - Finanças",file:"departmental-finance"},
+{title:"Séries Departamentais - Legal",file:"departmental-legal"},
+{title:"Séries Departamentais - Marketing",file:"departmental-marketing"},
+{title:"Séries Departamentais - RH",file:"departmental-hr"},
+{title:"Séries Departamentais - Utilizadores Privilegiados",file:"departmental-privileged"},
+{title:"Séries Departamentais - Vendas",file:"departmental-sales"},
+{title:"Software Malicioso",file:"malicious-software"},
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>

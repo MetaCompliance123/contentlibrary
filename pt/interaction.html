@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conteúdo da nanoteca 2026</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="bubble-container" id="bubbleContainer"></div>
+<div class="container">
+  <div class="header" id="scrollHeader">
+    <div class="logo"><img src="../img/logo.png"></div>
+    <h1>Conteúdo da nanoteca</h1>
+    <div class="year">2026</div>
+    <div class="language">
+      <a href="../en/interaction.html">Inglês</a>
+      <a href="../de/interaction.html">Alemão</a>
+      <a href="../fr/interaction.html">Francês</a>
+      <a href="../es/interaction.html">Espanhol</a>
+      <a href="../pt/interaction.html" class="active">Português</a>
+      <a href="../da/interaction.html">Dinamarquês</a>
+    </div>
+    <div class="description">
+      Por favor, note: esta biblioteca de conteúdos fornece uma visão geral detalhada dos títulos disponíveis, mas novos conteúdos são lançados regularmente.
+    </div>
+
+    <div class="dropdown">
+      <p>Tipo de conteúdo</p>
+      <div class="dropdown-btn" onclick="toggleDropdown(this)">
+        Interacções
+        <div class="arrow"></div>
+      </div>
+      <div class="dropdown-content">
+        <a href="index.html">Vídeo</a>
+        <a href="#">Interacções</a>
+        <a href="scorm.html">SCORM Course</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-container" id="listContainer"><div id="list"></div></div>
+</div>
+
+<script>
+const contentType="interaction";
+const bundles=[
+{title:"Engenharia Social",file:"social-engineering"},
+{title:"Formação De Quadros",file:"executive-training"},
+{title:"Núcleo Cibernético",file:"cyber-core"},
+{title:"Phishing",file:"phishing"},
+{title:"RGPD",file:"gdpr"},
+{title:"Segurança da Informação",file:"information-security"},
+{title:"Segurança Física",file:"physical-security"},
+];
+</script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>
